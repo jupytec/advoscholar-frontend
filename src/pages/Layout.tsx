@@ -1,7 +1,6 @@
 import SideNav from "@/components/SideNav";
 // import {AdminTable, AcademicTable, ClassTable, InvoiceTable} from "@/components/Table";
 
-
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-row md:overflow-hidden">
@@ -9,8 +8,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <SideNav />
       </div>
       {/* <Table/> */}
-      <div className="flex-grow p-6 md:overflow-y-auto md:p-12">{children}
-      {/* <AdminTable/>
+      <div className="flex-grow p-6 md:overflow-y-auto md:p-12">
+        {children}
+        {/* <AdminTable/>
       <AcademicTable/>
       <ClassTable/>
       <InvoiceTable/> */}
