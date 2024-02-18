@@ -1,7 +1,6 @@
 import { Logo, Avatar, Teaching, Money } from "@/assets/images/index";
 import { useState } from "react";
 import {
-  CaretSortIcon,
   TriangleDownIcon,
   LayersIcon,
   GearIcon,

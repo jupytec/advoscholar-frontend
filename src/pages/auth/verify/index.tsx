@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { useRef, useState } from "react";
 
 export default function VerifyEmail() {

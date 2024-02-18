@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export default function SetPassword() {
   return (
     <div className="h-screen flex justify-center sm:items-center bg-white">
