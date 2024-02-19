@@ -1,10 +1,10 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   prefix: "",
   theme: {
@@ -31,18 +31,18 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       gridTemplateColumns: {
-        '13': 'repeat(13, minmax(0, 1fr))',
+        13: "repeat(13, minmax(0, 1fr))",
       },
-      colors:{
-        black:{
-          100: '#44454B'
+      colors: {
+        black: {
+          100: "#44454B",
         },
-        white:{
-          50: '#fff',
-          100: '#EDEFF5'
-        }
-      }
+        white: {
+          50: "#fff",
+          100: "#EDEFF5",
+        },
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

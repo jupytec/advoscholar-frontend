@@ -5,7 +5,9 @@ Thank you for considering contributing to this project! We appreciate your inter
 Here's how you can get involved and contribute to the project:
 
 ## Contribution Workflow
+
 ### Prerequisite
+
 Before considering contributing to the project, ensure you have the following installed on your system:
 
 <!--
@@ -16,51 +18,61 @@ Before considering contributing to the project, ensure you have the following in
 - npm (Required to run commitlint)
 -->
 
- 1. **Clone your repository to your local machine**
+1.  **Clone your repository to your local machine**
+
     ```
     git clone https://github.com/Jupytec/AdvoScholar
     ```
 
- 2. **Change to the repository directory on your computer**
+2.  **Change to the repository directory on your computer**
+
     ```
     cd AdvoScholar
     ```
 
- 3. **Install Pre commit hook**
+3.  **Install Pre commit hook**
     To avoid failed CI checks on Pull requests, use the makefile to install the pre commit hooks.
     This may take some minutes since it setups pre commit and commit message hooks.
+
     ```bash
     make pre-commit
     ```
 
- 4. **Create a branch using the `git checkout` command**
+4.  **Create a branch using the `git checkout` command**
+
     ```bash
     git checkout -B category/description
     ```
+
     **Refer to the [Branch Naming Convention](#branch-naming) for appropriate branch naming.**
 
- 5. **Make all necessary changes, following our coding style and guidelines [[Pep 8]](https://peps.python.org/pep-0008/).**
+5.  **Make all necessary changes, following our coding style and guidelines [[Pep 8]](https://peps.python.org/pep-0008/).**
 
- 6. **If changes were made to any table, use the makefile to upgrade the database. It's alembic under the hood**
+6.  **If changes were made to any table, use the makefile to upgrade the database. It's alembic under the hood**
+
     ```
     make upgrade
     ```
+
     **To go back to a previous version the database, run:**
+
     ```
     make downgrade
     ```
 
     **Always sync your branch with the dev branch**
 
- 7. **Commit your changes and push them to the remote repository**
+7.  **Commit your changes and push them to the remote repository**
+
     ```bash
     git add .
     git commit -m "category(scope): message"
     git push origin category/description
     ```
+
     **Refer to the [Commit Message Convention](#commit-message) for guidance on commit message format.**
 
- 8. **Create a Pull Request**
+8.  **Create a Pull Request**
     Go to the Pull Requests section of our repository.
     Click on the "New Pull Request" button.
     Select the branch containing your changes.
@@ -68,9 +80,11 @@ Before considering contributing to the project, ensure you have the following in
     Submit the pull request, and we'll review your changes as soon as possible.
 
 ## Opening an Issue
+
 Before creating issues, search through existing [issues](https://github.com/Jupytec/AdvoScholar/issues) to see if your issue has previously been reported. If your issue exists, comment with any additional information you have. You may simply note "I have this problem too", which helps prioritize the most common problems and requests.
 
 ### Bug Reports
+
 A great way to contribute to the project is to send a detailed issue when you encounter a problem. We always appreciate a well-written, thorough bug report.
 
 Since we are developers, we should write bug reports as a ticket that you would like to receive.
@@ -78,6 +92,7 @@ Since we are developers, we should write bug reports as a ticket that you would 
 **Fully complete the provided [issue template](https://github.com/Jupytec/AdvoScholar/issues/new?assignees=&labels=&projects=&template=bug_report.yaml&title=%5BBug%5D+).** The bug report template requests all the information we need to quickly and efficiently address your issue. Be clear, concise, and descriptive. Provide as much information as you can, including steps to reproduce, stack traces, compiler errors, library versions, OS versions, and screenshots (if applicable).
 
 ### Feature Requests
+
 If you have an idea for a new feature or improvement that you'd like to see in this project, please let us know.
 
 **Fully complete the provided [issue template](https://github.com/Jupytec/AdvoScholar/issues/new?assignees=&labels=&projects=&template=feature_functionality_request.yaml&title=%5BFeature+Request%5D+)**. The feature request template asks for all necessary information for us to begin a productive conversation. Be precise about the proposed outcome of the feature and how it relates to existing features. Include implementation details if possible.
@@ -112,11 +127,12 @@ We appreciate your contributions through pull requests! Here's how to create and
 
 3. **Communication**: When making comments during the review, please use properly constructed sentences with appropriate punctuation. Clear and concise communication helps streamline the review process.
 
-
 ## Branch Naming and Commit Convention
+
 When you create a branch or make a commit, please follow this convention:
 
 ### Branch Naming
+
 Use the format `category/description` for branch names. Choose one of the following categories:
 
 - `feat`: For changes that introduce completely new code or new features.
@@ -135,6 +151,7 @@ Here are some examples:
 - `refactor/api-improvements`: When making code-related changes that aren't fixes or features, this branch is appropriate.
 
 ### Commit Message
+
 In your commit message, follow the format `category(scope): message`. Here's a breakdown:
 
 - `category`: The category from the list above.
@@ -153,9 +170,11 @@ Here are some examples:
 - `chore(clean-up): remove unused code and files.`
 
 ## License Information
+
 Any contributions you make will be under the MIT Software License. In short, when you submit code changes, your submissions are understood to be under the same [MIT License](LICENSE) that covers the project.
 
 ## Feedback and Discussions
+
 If you have general questions, suggestions, or want to discuss ideas with the community, you can also participate in discussions in the Discussions section.
 
 Your contributions help make our project better, and we're grateful for your support! If you have any questions or need further assistance, feel free to reach out to us via the project's communication channels.
