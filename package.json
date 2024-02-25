@@ -10,7 +10,7 @@
     "vite.build": "vite build",
     "vite.dev": "vite --host",
     "vite.preview": "vite preview",
-    "prepare": "husky"
+    "prepare": "npx husky init"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,html,css}": "prettier . --write"
