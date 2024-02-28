@@ -19,7 +19,7 @@ const SideNav = () => {
         <div className="flex h-full flex-col px-1 sm:px-5 py-4 md:px-0 border border-solid border-slate-200 divide-y divide-slate-200 ">
             <div className='flex flex-col gap-4 '>
 
-                <img src={Logo} alt="AdvoScholar Logo" className='sm:w-[9.375rem] sm:h-9 sm:ml-5' />
+                <img src={Logo} alt="AdvoScholar Logo" className='sm:w-[9.375rem]  sm:ml-5' />
 
                 <div className='flex flex-col items-center pb-8'>
                     <img src={Avatar} alt="AdvoScholar Logo" className='sm:w-[7.125rem] sm:h-[7.125rem]' />
