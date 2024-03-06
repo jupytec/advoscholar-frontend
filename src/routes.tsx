@@ -16,10 +16,12 @@ export const routes: Array<RouteObject> = [
     ),
   },
   {
-    path: 'dashboard',
+    path: "dashboard",
     element: (
       <Suspense>
-        <Layout children={<Dashboard/>}/>
+        <Layout>
+          <Dashboard />
+        </Layout>
       </Suspense>
     ),
   },

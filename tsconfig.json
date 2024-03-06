@@ -19,10 +19,9 @@
     "sourceMap": true,
     "types": ["vite/client", "@total-typescript/ts-reset"],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
     },
-    
   },
   "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json" }],
 }
