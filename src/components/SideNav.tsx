@@ -26,7 +26,7 @@ const SideNav = () => {
         <img
           src={Logo}
           alt="AdvoScholar Logo"
-          className="sm:w-[9.375rem] sm:h-9 sm:ml-5"
+          className="sm:w-[9.375rem]  sm:ml-5"
         />
 
         <div className="flex flex-col items-center pb-8">
